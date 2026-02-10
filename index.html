@@ -1,0 +1,39 @@
+A<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Background petals -->
+<canvas id="petals"></canvas>
+
+<!-- Music (user tap needed on mobile) -->
+<audio id="bgm" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<button id="playBtn">Play Music</button>
+
+<div class="container">
+  <div class="photo fade">
+    <img src="photo1.jpg" />
+  </div>
+
+  <div class="photo fade">
+    <img src="photo2.jpg" />
+    <p class="arabic">أنتِ أجمل صدفة في حياتي</p>
+  </div>
+
+  <div class="photo fade">
+    <img src="photo3.jpg" />
+    <p class="arabic">حبكِ يسكن القلب</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
